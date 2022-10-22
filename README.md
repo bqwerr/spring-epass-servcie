@@ -151,10 +151,10 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-[GMail](gmail) \
-[LinkedIn](linkedin) \
-[GitHub](github) \
-[Website](website) 
+[GMail][gmail] \
+[LinkedIn][linkedin] \
+[GitHub][github] \
+[Website][website] 
 
 
 
