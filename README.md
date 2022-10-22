@@ -63,7 +63,7 @@
 
 [![Screenshots](images/gif.gif)](http://epass-portal.herokuapp.com/)
 
-This repository has a Java backend API built using Spring Boot Framework for <a href="https://github.com/bqwerr/react-epass-portal">Travel Management Portal</a> to accept, reject and manage the travel permissions raised by application users. Authentication and Authorization is secured by <a href="https://jwt.io/">Json Web Tokens</a>
+This repository has a Java backend API built using Spring Boot Framework for the frontend application - <a href="https://github.com/bqwerr/react-epass-portal">Travel Management Portal</a> to accept, reject and manage the travel permissions raised by application users. Authentication and Authorization is secured by <a href="https://jwt.io/">Json Web Tokens</a>
 
 <br />
 
@@ -93,7 +93,7 @@ To get a local copy of this backend application up and running follow these exam
    ```
 2. Open the project in Spring Tool Suite
 3. Convert to Maven & Build Project
-4. Change database properties in application.properties file
+4. Change database properties in ```application.properties``` file
 4. Run the application
 
 - Now your backend API will be running on port specified in ```application.properties``` file.
