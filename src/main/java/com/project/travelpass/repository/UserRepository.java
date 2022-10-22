@@ -5,10 +5,10 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.project.travelpass.model.User;
+import com.project.travelpass.model.Userr;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<Userr, Long> {
 
-    Optional<User> findByUid(String uid);
+    Optional<Userr> findByUid(String uid);
 }

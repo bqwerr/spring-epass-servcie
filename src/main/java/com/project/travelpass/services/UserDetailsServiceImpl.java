@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.project.travelpass.model.User;
+import com.project.travelpass.model.Userr;
 import com.project.travelpass.repository.UserRepository;
 
 @Service
@@ -23,7 +23,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String uid) throws UsernameNotFoundException {
         //System.out.println(1);
-    	User user = userRepository.findByUid(uid).orElseThrow(() ->
+    	Userr user = userRepository.findByUid(uid).orElseThrow(() ->
                 new UsernameNotFoundException("No user found for Uid: " + uid));
         return new org.springframework.security.core.userdetails.User(user.getUid(),
                 user.getPassword(),

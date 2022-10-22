@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 import com.project.travelpass.dto.LoginRequest;
 import com.project.travelpass.dto.RefreshTokenRequest;
 import com.project.travelpass.dto.RegisterRequest;
-import com.project.travelpass.model.User;
+import com.project.travelpass.model.Userr;
 import com.project.travelpass.repository.UserRepository;
 import com.project.travelpass.security.JwtProvider;
 
@@ -35,7 +35,7 @@ public class AuthService {
     private RefreshTokenService refreshTokenService;
     
     public void signup(RegisterRequest registerRequest) {
-        User user = new User();
+        Userr user = new Userr();
         user.setUid(registerRequest.getUid());
         user.setName(registerRequest.getName());
         user.setPhone(registerRequest.getPhone());

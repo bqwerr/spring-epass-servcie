@@ -38,7 +38,7 @@ public class FormSubmitService {
 		permission.setLic_no(permissionDto.getLic_no());
 		
 		// setting owner to application admin
-		Optional<com.project.travelpass.model.User> userEntity =  userRepository.findByUid("478578547854");
+		Optional<com.project.travelpass.model.Userr> userEntity =  userRepository.findByUid("478578547854");
 		permission.setOwner(userEntity.get());
 		permission.setStatus(permissionDto.getStatus());
 		permission.setPermission_id(permissionDto.getDocument_ref() + "@" + permissionDto.getPhone());

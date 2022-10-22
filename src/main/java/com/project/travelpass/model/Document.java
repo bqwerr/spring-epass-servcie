@@ -31,5 +31,5 @@ public class Document {
     private String ref;
     @ManyToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="OWNER_ID")
-    private User owner;
+    private Userr owner;
 }

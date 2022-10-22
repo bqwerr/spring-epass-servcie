@@ -64,7 +64,7 @@ public class PermissionService {
 		User loggedInUser = authService.getCurrentUser().orElseThrow(() -> new MyException("No user logged in"));
 		
 		String uid = loggedInUser.getUsername();
-		Optional<com.project.travelpass.model.User> userEntity =  userRepository.findByUid(uid);
+		Optional<com.project.travelpass.model.Userr> userEntity =  userRepository.findByUid(uid);
 		permission.setOwner(userEntity.get());
 		
 		permission.setPermission_id(permissionDto.getDocument_ref() + "@" + permissionDto.getPhone());

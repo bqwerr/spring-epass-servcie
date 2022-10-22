@@ -58,6 +58,6 @@ public class Permission {
     private Instant createdDate;
     @ManyToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="OWNER_ID")
-    private User owner;
+    private Userr owner;
     
 }
