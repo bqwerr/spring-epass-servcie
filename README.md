@@ -71,7 +71,7 @@ This repository has a Java backend API built using Spring Boot Framework for <a 
 
 ### Built With
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,postgres,heroku,react,bootstrap&perline=3)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,postgres,heroku&perline=4)](https://skillicons.dev)
 
 
 <br />
@@ -79,7 +79,7 @@ This repository has a Java backend API built using Spring Boot Framework for <a 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy of application up and running follow these example steps.
+To get a local copy of this backend application up and running follow these example steps.
 
 ### Prerequisites
 
@@ -95,6 +95,10 @@ To get a local copy of application up and running follow these example steps.
 3. Convert to Maven & Build Project
 4. Change database properties in application.properties file
 4. Run the application
+
+- Now your backend API will be running on port specified in ```application.properties``` file.
+- If no port has specified, by default it should run on port ```8080```.
+- To get the frontend application, please refer this <a href="https://github.com/bqwerr/react-epass-portal">repository</a>.
 
 <br />
 
