@@ -168,6 +168,6 @@ Don't forget to give the project a star! Thanks again!
 
 
 [website]: https://bqwerr.github.io
-[linkedin]: https://linkedin.com/srujan-tumma
+[linkedin]: https://linkedin.com/in/srujan-tumma
 [gmail]: mailto:tummasrujan@gmail.com
 [github]: https://github.com/bqwerr
