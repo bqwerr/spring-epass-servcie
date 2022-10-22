@@ -105,6 +105,10 @@ To get a local copy of application up and running follow these example steps.
 
 _For usage of endpoints, please refer to the [Documentation](https://htmlpreview.github.io/?https://github.com/bqwerr/spring-epass-service/blob/master/documentation.htm)_
 
+- After logging in using valid credentials, Authentication Token & Refresh Token are generated, which can be used to access the Endpoints.
+ 
+![AuthenticationToken](/images/6.png)
+
 <br />
 
 
