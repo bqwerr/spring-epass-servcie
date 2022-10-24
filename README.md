@@ -19,7 +19,8 @@
     API service built using Java to accept, reject and manage travel permissions using JWT Authentication Mechanism. 
     <br />
     <br/>
-    <a href="http://epass-service.herokuapp.com/api/posts/all">View Demo</a>
+    <a href="http://epass-service.herokuapp.com/api/posts/all">View Demo</a> · 
+    <a href="https://github.com/bqwerr/spring-epass-service">Repository</a>
     <!-- · <a href="https://bqwerr.github.io">Explore the docs</a> -->
     ·
     <a href="https://github.com/bqwerr">View More »</a>
@@ -155,10 +156,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-[GMail][gmail] \
-[LinkedIn][linkedin] \
-[GitHub][github] \
-[Website][website] 
+[GMail][gmail] · [LinkedIn][linkedin] · [GitHub][github] · [Website][website] 
 
 
 
